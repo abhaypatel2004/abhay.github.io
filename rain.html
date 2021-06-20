@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+	
+	*{ 
+     margin: 0;
+	 padding: 0;
+	 }
+	header{
+    background-image: url(cp.svg);
+    height:100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: center;
+	}
+	nav{
+		text-transform: uppercase;
+	}
+	.main{
+		width: 100%;
+		height:100vh;
+		position:relative;
+		box-shadow:7px 7px 60px #000;
+	}
+	.class{
+		width:300px;
+		height:40vh;
+		position:absolute;
+		top: 51%;
+		left:49%;
+		transform: translate(-50%,-50%);
+		padding: 50px;
+		border-radius: 10px;
+		background: rgba(0,0,0,0.6);
+	}
+	.class h1{
+		margin-bottom: 30px;
+		text-align: center;
+		text-transform: capitalize;
+		color:#fff;
+	} 
+	.class .input{
+		position: relative;
+	}
+    
+   .input input[type="text"],.input input[type="password"]{
+   	   width: 100%;
+   	   border: 0;
+   	   color:white;
+   	   padding:14px 10px;
+   	   margin: 20px auto;
+   	   border: 2px solid #3498db ;
+   	   background-color: transparent;
+   	   border-radius: 50px;
+   	   display: block;
+   	   outline: none;
+   	   text-align: center;
+   	   transition: 0.25s;
+   	   outline: none;
+   }
+   
+
+
+		
+
+	    
+
+
+
+</style>
+
+<body>
+<header>
+	<nav>
+		<div class="main">
+		<div class="class">
+		<h1>login form</h1>
+		<form>
+			<div class="input">
+				
+				
+				<input type="text" name="username" placeholder="username" autocomplete="off" required>
+				
+			
+				
+				<input type="password" name="password" placeholder="password" autocomplete="off" required>
+				
+				<input type="submit" name="" value="login">
+			</div>
+			
+		</form>
+	</div>
+    </div>
+	</nav>
+</header>
+</body>
+</html>
